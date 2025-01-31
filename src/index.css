@@ -9,7 +9,7 @@
 }
 
 body {
-  background: #010103;
+  background: #FAFAFA;
   font-family: 'General Sans', sans-serif;
 }
 
@@ -27,15 +27,15 @@ body {
   }
 
   .nav-li {
-    @apply text-neutral-400 hover:text-white font-generalsans max-sm:hover:bg-black-500 max-sm:w-full max-sm:rounded-md py-2 max-sm:px-5;
+    @apply text-black hover:text-green-500 font-bold max-sm:w-full max-sm:rounded-md py-2 max-sm:px-5;
   }
 
   .nav-li_a {
-    @apply text-lg md:text-base hover:text-white transition-colors;
+    @apply text-lg md:text-base hover:text-green-500 transition-colors;
   }
 
   .nav-sidebar {
-    @apply absolute left-0 right-0 bg-black-200 backdrop-blur-sm transition-all duration-300 ease-in-out overflow-hidden z-20 mx-auto sm:hidden block;
+    @apply absolute left-0 right-0 bg-[#FAFAFA] backdrop-blur-sm transition-all duration-300 ease-in-out overflow-hidden z-20 mx-auto sm:hidden block;
   }
 
   .text-gray_gradient {
@@ -44,7 +44,7 @@ body {
 
   /* button component */
   .btn {
-    @apply flex gap-4 items-center justify-center cursor-pointer p-3 rounded-md bg-black-300  transition-all active:scale-95 text-white mx-auto;
+    @apply flex gap-4 items-center justify-center cursor-pointer p-3 rounded-md bg-black  transition-all active:scale-95 text-white mx-auto;
   }
 
   .btn-ping {
@@ -62,15 +62,15 @@ body {
 
   /* about section */
   .grid-container {
-    @apply w-full h-full border border-black-300 bg-black-200 rounded-lg sm:p-7 p-4 flex flex-col gap-5;
+    @apply w-full h-full border border-[#d3d1ca] bg-white rounded-lg sm:p-7 p-4 flex flex-col gap-5;
   }
 
   .grid-headtext {
-    @apply text-xl font-semibold mb-2 text-white font-generalsans;
+    @apply text-xl font-semibold mb-2 text-black font-generalsans;
   }
 
   .grid-subtext {
-    @apply text-[#afb0b6] text-base font-generalsans;
+    @apply text-black text-base font-generalsans;
   }
 
   .copy-container {
