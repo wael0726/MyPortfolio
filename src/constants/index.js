@@ -110,7 +110,7 @@ export const myProjects = [
     desc: 'CloudNest is a powerful file management and sharing application designed to streamline file storage and collaboration. It allows users to upload images, videos and other files. Users can rename files, view details, share files, download them, delete, and even leave comments on shared files. Additionally, CloudNest enables file previewing, so users don’t have to download files just to see their contents.',
     subdesc:
       'Built using TypeScript, Next.js, ShadCN/UI, Tailwind CSS, Appwrite, and Chart.js, CloudNest ensures a smooth and responsive experience. The app’s modern interface and seamless functionalities are powered by robust technologies, enabling users to efficiently manage and share their files with ease.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+    href: 'https://github.com/wael0726/StorageSystem',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/cloudlogo.png',
     logoStyle: {
@@ -157,7 +157,7 @@ export const myProjects = [
     desc: 'EchoFinder is a Minecraft mod that introduces a new mineral. The new mineral allows the creation of basic tools, and a portable radar. The radar can detect specific minerals, armor, and even other players, depending on the settings chosen. Additionally, the mod introduces a 3x3 hammer, which allows players to mine a 3x3 area in one swing, making it easier to gather resources in the DeepDark, where this mineral can exclusively be found. The mod also features special armor crafted from the new mineral, which makes the wearer invisible to the radar, adding a layer of stealth and strategy.',
     subdesc:
       'Built with NeoForge, Java, and JSON, the mod enhances the Minecraft experience with new mechanics. ',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+    href: 'https://github.com/wael0726/EchoFinderMod',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/minecraftlogo.jpg',
     logoStyle: {
@@ -191,7 +191,7 @@ export const myProjects = [
     desc: 'PyCar is an innovative electronic vehicle designed for smart and autonomous operation. Equipped with advanced sensors and technologies, the vehicle can drive autonomously by detecting obstacles and following lines on the ground. It also includes cliff detection, automatically stopping the car when it senses a drop beneath it. The SmartCar IoT is further enhanced by its ability to recognize and identify objects through its camera system. Additionally, the car can scan QR codes, recognize faces, and detect road signs. The vehicle can also be remotely controlled via Bluetooth.',
     subdesc:
       'Developed with Python, Arduino/C++, and Raspberry Pi, PyCar leverages cutting-edge technology to bring intelligent features to life.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+    href: 'https://github.com/wael0726/python_car',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/pycar.png',
     logoStyle: {
@@ -228,7 +228,7 @@ export const myProjects = [
     desc: 'This 3D platformer game offers an exciting adventure filled with diverse levels, each designed with unique challenges and obstacles. Players will navigate through environments featuring bumpers, moving platforms, and enemies equipped with artificial intelligence. The game introduces dynamic elements like air vents that propel players upward, along with various shooting obstacles that test the player\'s agility and timing. With every level, players encounter new gameplay mechanics and increasingly complex scenarios that push their skills to the limit.',
     subdesc:
       'Developed with Unity and C#, the game takes full advantage of Unity\'s powerful engine to create immersive 3D environments and realistic physics.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+    href: '',
     texture: '/textures/project/project5.mp4',
     logo: '/assets/Ascendia.png',
     logoStyle: {
