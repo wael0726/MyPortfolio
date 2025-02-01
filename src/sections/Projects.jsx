@@ -44,7 +44,7 @@ const Projects = () => {
           </div>
 
           <div className="flex flex-col gap-5 text-white-600 my-5">
-            <p className="text-white text-2xl font-semibold animatedText">{currentProject.title}</p>
+            <p className="text-black text-2xl font-semibold animatedText">{currentProject.title}</p>
 
             <p className="animatedText">{currentProject.desc}</p>
             <p className="animatedText">{currentProject.subdesc}</p>
@@ -75,7 +75,7 @@ const Projects = () => {
             </button>
 
             <button className="arrow-btn" onClick={() => handleNavigation('next')}>
-              <img src="/assets/right-arrow.png" alt="right arrow" className="w-4 h-4" />
+              <img src="/assets/TurnRightArrow.svg" alt="right arrow" className="w-4 h-4" />
             </button>
           </div>
         </div>

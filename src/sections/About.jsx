@@ -1,7 +1,10 @@
 import { useState } from 'react';
 import Globe from 'react-globe.gl';
-
+import { Canvas } from '@react-three/fiber';
+import { Suspense } from 'react';
+import { OrbitControls, PerspectiveCamera } from '@react-three/drei';
 import Button from '../components/Button.jsx';
+import { Keyboard } from '../components/Keyboard.jsx'; // Assurez-vous que le chemin est correct
 
 const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
@@ -34,7 +37,7 @@ const About = () => {
 
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
-            <img src="assets/codebg.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
+            <img src="assets/codebranch.jpg" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
               <p className="grid-headtext">Tech Stack</p>
@@ -71,8 +74,28 @@ const About = () => {
 
         <div className="xl:col-span-2 xl:row-span-3">
           <div className="grid-container">
-            <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
-
+            <div className="rounded-3xl w-full sm:h-[266px] h-fit flex justify-center items-center">
+              <Canvas>
+                <Suspense fallback={null}>
+                  <PerspectiveCamera makeDefault position={[0, 0, 3]} />
+                  <OrbitControls
+                    enableZoom={true}
+                    enablePan={false}
+                    enableRotate={true}
+                    autoRotate={false}
+                    minDistance={2}
+                    maxDistance={2}
+                  />
+                  <ambientLight intensity={1} />
+                  <directionalLight position={[10, 10, 10]} intensity={0.5} />
+                  <Keyboard
+                    scale={[0.6, 0.6, 0.6]}
+                    position={[0, -0.5, 0]}
+                    rotation={[0, Math.PI / 4, 0]}
+                  />
+                </Suspense>
+              </Canvas>
+            </div>
             <div>
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
