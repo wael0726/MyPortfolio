@@ -5,13 +5,10 @@ import { useFrame } from '@react-three/fiber';
 export function Keyboard(props) {
   const group = useRef();
   const { nodes, materials } = useGLTF('/models/keyboard.glb');
-
-  // Utilisez useFrame pour mettre à jour la rotation en fonction de la souris
   useFrame(({ mouse }) => {
     if (group.current) {
-      // Inclinaison horizontale uniquement
-      group.current.rotation.y = mouse.x * 0.2 + Math.PI / 4.5; // Inclinaison horizontale + rotation initiale vers la gauche
-      group.current.rotation.x = 0; // Désactive l'inclinaison verticale
+      group.current.rotation.y = mouse.x * 0.2 + Math.PI / 90;
+      group.current.rotation.x = 0.4;
     }
   });
 

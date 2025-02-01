@@ -58,13 +58,14 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+    title: 'Kapelka - Restaurant Management App',
+    desc: 'Kapelka is an innovative restaurant management application designed to streamline operations and enhance the customer experience. With its user-friendly interface, it allows restaurants to easily manage customers, products, and orders. The admin panel offers a comprehensive view of customer and order data, giving restaurant managers full control over operations.',
     subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+      'Built using JavaScript, React, Firebase, Redux, Tailwind CSS, and Framer Motion, Kapelka ensures optimal performance. The app also integrates Stripe for secure online payments, providing a seamless checkout experience for customers. The app is powered by modern technologies that ensure scalability and a responsive design.\n' +
+      '\n',
+    href: 'https://github.com/wael0726/Food-App',
     texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
+    logo: '/assets/kapelka.png',
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
@@ -74,34 +75,44 @@ export const myProjects = [
     tags: [
       {
         id: 1,
+        name: 'JavaScript',
+        path: '/assets/javascript.png',
+      },
+      {
+        id: 2,
         name: 'React.js',
         path: '/assets/react.svg',
       },
       {
-        id: 2,
+        id: 3,
         name: 'TailwindCSS',
         path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
       },
       {
         id: 4,
         name: 'Framer Motion',
         path: '/assets/framer.png',
       },
+      {
+        id: 5,
+        name: 'Firebase',
+        path: '/assets/firebase.png',
+      },
+      {
+        id: 6,
+        name: 'Redux',
+        path: '/assets/redux.png',
+      },
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'CloudNest - File Management',
+    desc: 'CloudNest is a powerful file management and sharing application designed to streamline file storage and collaboration. It allows users to upload images, videos and other files. Users can rename files, view details, share files, download them, delete, and even leave comments on shared files. Additionally, CloudNest enables file previewing, so users don’t have to download files just to see their contents.',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
+      'Built using TypeScript, Next.js, ShadCN/UI, Tailwind CSS, Appwrite, and Chart.js, CloudNest ensures a smooth and responsive experience. The app’s modern interface and seamless functionalities are powered by robust technologies, enabling users to efficiently manage and share their files with ease.',
     href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
     texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
+    logo: '/assets/cloudlogo.png',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
@@ -111,34 +122,44 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
         name: 'TypeScript',
         path: '/assets/typescript.png',
       },
       {
+        id: 2,
+        name: 'Next.js',
+        path: '/assets/next.png',
+      },
+      {
+        id: 3,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'ShadCN',
+        path: '/assets/shad.png',
+      },
+      {
+        id: 5,
+        name: 'Appwrite',
+        path: '/assets/appwrite.png',
+      },
+      {
+        id: 6,
+        name: 'Chart.js',
+        path: '/assets/chart.png',
       },
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    title: 'EchoFinder - Minecraft Mod',
+    desc: 'EchoFinder is a Minecraft mod that introduces a new mineral. The new mineral allows the creation of basic tools, and a portable radar. The radar can detect specific minerals, armor, and even other players, depending on the settings chosen. Additionally, the mod introduces a 3x3 hammer, which allows players to mine a 3x3 area in one swing, making it easier to gather resources in the DeepDark, where this mineral can exclusively be found. The mod also features special armor crafted from the new mineral, which makes the wearer invisible to the radar, adding a layer of stealth and strategy.',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+      'Built with NeoForge, Java, and JSON, the mod enhances the Minecraft experience with new mechanics. ',
     href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
     texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
+    logo: '/assets/minecraftlogo.jpg',
     logoStyle: {
       backgroundColor: '#60f5a1',
       background:
@@ -150,34 +171,29 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Java',
+        path: '/assets/Javalogo.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'JSON',
+        path: 'assets/json.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'NeoForge',
+        path: '/assets/neoforge.png',
       },
     ],
   },
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+    title: 'PyCar - Intelligent Vehicle IoT',
+    desc: 'PyCar is an innovative electronic vehicle designed for smart and autonomous operation. Equipped with advanced sensors and technologies, the vehicle can drive autonomously by detecting obstacles and following lines on the ground. It also includes cliff detection, automatically stopping the car when it senses a drop beneath it. The SmartCar IoT is further enhanced by its ability to recognize and identify objects through its camera system. Additionally, the car can scan QR codes, recognize faces, and detect road signs. The vehicle can also be remotely controlled via Bluetooth.',
     subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
+      'Developed with Python, Arduino/C++, and Raspberry Pi, PyCar leverages cutting-edge technology to bring intelligent features to life.',
     href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
     texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
+    logo: '/assets/pycar.png',
     logoStyle: {
       backgroundColor: '#0E1F38',
       border: '0.2px solid #0E2D58',
@@ -187,34 +203,34 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Python',
+        path: '/assets/python.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'C++',
+        path: '/assets/C++.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'Arduino',
+        path: 'assets/arduino.svg',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Raspberry Pi',
+        path: '/assets/raspberryPi.png',
       },
     ],
   },
   {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+    title: 'Ascendia - 3D Platformer Game',
+    desc: 'This 3D platformer game offers an exciting adventure filled with diverse levels, each designed with unique challenges and obstacles. Players will navigate through environments featuring bumpers, moving platforms, and enemies equipped with artificial intelligence. The game introduces dynamic elements like air vents that propel players upward, along with various shooting obstacles that test the player\'s agility and timing. With every level, players encounter new gameplay mechanics and increasingly complex scenarios that push their skills to the limit.',
     subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
+      'Developed with Unity and C#, the game takes full advantage of Unity\'s powerful engine to create immersive 3D environments and realistic physics.',
     href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
     texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
+    logo: '/assets/Ascendia.png',
     logoStyle: {
       backgroundColor: '#1C1A43',
       border: '0.2px solid #252262',
@@ -224,23 +240,13 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'C#',
+        path: '/assets/Csharp.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Unity',
+        path: 'assets/unity.png',
       },
     ],
   },
