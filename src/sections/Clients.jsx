@@ -62,7 +62,7 @@ const Skills = () => {
                 className="font-bold transition-all duration-500"
                 style={{
                   color: currentLanguageColor,
-                  textShadow: `0 0 12px ${currentLanguageColor}40`
+                  textShadow: `0 0 12px ${currentLanguageColor}40`,
                 }}
               >
                 {currentLanguage}
@@ -100,7 +100,7 @@ const Skills = () => {
         </div>
 
         {/* Deuxième ligne */}
-        <div className="grid grid-cols-3 md:grid-cols-6 gap-0.5">
+        <div className="grid grid-cols-2 md:grid-cols-6 gap-0.5">
           {bottomLanguages.map((language) => (
             <div
               key={language.name}
@@ -144,7 +144,7 @@ const Skills = () => {
                 className="font-bold transition-all duration-500"
                 style={{
                   color: currentFrameworkColor,
-                  textShadow: `0 0 12px ${currentFrameworkColor}40`
+                  textShadow: `0 0 12px ${currentFrameworkColor}40`,
                 }}
               >
                 {currentFramework}
@@ -182,7 +182,7 @@ const Skills = () => {
         </div>
 
         {/* Deuxième ligne */}
-        <div className="grid grid-cols-3 md:grid-cols-6 gap-0.5">
+        <div className="grid grid-cols-2 md:grid-cols-6 gap-0.5">
           {bottomFrameworks.map((framework) => (
             <div
               key={framework.name}
