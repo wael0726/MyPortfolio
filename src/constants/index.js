@@ -64,7 +64,7 @@ export const myProjects = [
       'Built using JavaScript, React, Firebase, Redux, Tailwind CSS, and Framer Motion, Kapelka ensures optimal performance. The app also integrates Stripe for secure online payments, providing a seamless checkout experience for customers. The app is powered by modern technologies that ensure scalability and a responsive design.\n' +
       '\n',
     href: 'https://github.com/wael0726/Food-App',
-    texture: '/textures/project/project1.mp4',
+    texture: '/textures/project/kapelkamp4.mp4',
     logo: '/assets/kapelka.png',
     logoStyle: {
       backgroundColor: '#2A1816',
@@ -111,7 +111,7 @@ export const myProjects = [
     subdesc:
       'Built using TypeScript, Next.js, ShadCN/UI, Tailwind CSS, Appwrite, and Chart.js, CloudNest ensures a smooth and responsive experience. The app’s modern interface and seamless functionalities are powered by robust technologies, enabling users to efficiently manage and share their files with ease.',
     href: 'https://github.com/wael0726/StorageSystem',
-    texture: '/textures/project/project2.mp4',
+    texture: '/textures/project/cloudnestmp4.mp4',
     logo: '/assets/cloudlogo.png',
     logoStyle: {
       backgroundColor: '#13202F',
@@ -158,7 +158,7 @@ export const myProjects = [
     subdesc:
       'Built with NeoForge, Java, and JSON, the mod enhances the Minecraft experience with new mechanics. ',
     href: 'https://github.com/wael0726/EchoFinderMod',
-    texture: '/textures/project/project3.mp4',
+    texture: '/textures/project/minecraftmp4.mp4',
     logo: '/assets/minecraftlogo.jpg',
     logoStyle: {
       backgroundColor: '#60f5a1',
@@ -192,7 +192,7 @@ export const myProjects = [
     subdesc:
       'Developed with Python, Arduino/C++, and Raspberry Pi, PyCar leverages cutting-edge technology to bring intelligent features to life.',
     href: 'https://github.com/wael0726/python_car',
-    texture: '/textures/project/project4.mp4',
+    texture: '/textures/project/pycarmp4.mp4',
     logo: '/assets/pycar.png',
     logoStyle: {
       backgroundColor: '#0E1F38',
@@ -229,7 +229,7 @@ export const myProjects = [
     subdesc:
       'Developed with Unity and C#, the game takes full advantage of Unity\'s powerful engine to create immersive 3D environments and realistic physics.',
     href: '',
-    texture: '/textures/project/project5.mp4',
+    texture: '/textures/project/Ascendiamp4.mp4',
     logo: '/assets/Ascendia.png',
     logoStyle: {
       backgroundColor: '#1C1A43',
