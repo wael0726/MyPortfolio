@@ -42,7 +42,7 @@ const Skills = () => {
   const bottomLanguages = languages.slice(4, 10);
 
   return (
-    <section className="mx-auto max-w-7xl p-8 space-y-12" id="skills">
+    <section className="mx-auto max-w-7xl p-4 md:p-8 space-y-12" id="skills">
       <p className="head-text">My Skills</p>
       {/* Section Langages */}
       <div
@@ -53,7 +53,7 @@ const Skills = () => {
         }}
       >
         {/* Première ligne */}
-        <div className="grid grid-cols-[1fr_2fr] gap-0.5">
+        <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-0.5">
           {/* Texte */}
           <div className="bg-white p-6 flex items-center">
             <h2 className="text-2xl font-medium">
@@ -73,7 +73,7 @@ const Skills = () => {
           </div>
 
           {/* Logos du haut */}
-          <div className="grid grid-cols-4 gap-0.5">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-0.5">
             {topLanguages.map((language) => (
               <div
                 key={language.name}
@@ -83,11 +83,11 @@ const Skills = () => {
                   setCurrentLanguageColor(language.color);
                 }}
               >
-                <div className="aspect-square flex items-center justify-center p-6">
+                <div className="aspect-square flex items-center justify-center p-4 md:p-6">
                   <img
                     src={language.img}
                     alt={language.name}
-                    className="h-12 w-12 object-contain opacity-90
+                    className="h-16 w-16 md:h-12 md:w-12 object-contain opacity-90
                     group-hover:opacity-100
                     group-hover:scale-110
                     group-hover:-translate-y-1
@@ -100,7 +100,7 @@ const Skills = () => {
         </div>
 
         {/* Deuxième ligne */}
-        <div className="grid grid-cols-6 gap-0.5">
+        <div className="grid grid-cols-3 md:grid-cols-6 gap-0.5">
           {bottomLanguages.map((language) => (
             <div
               key={language.name}
@@ -110,11 +110,11 @@ const Skills = () => {
                 setCurrentLanguageColor(language.color);
               }}
             >
-              <div className="aspect-square flex items-center justify-center p-6">
+              <div className="aspect-square flex items-center justify-center p-4 md:p-6">
                 <img
                   src={language.img}
                   alt={language.name}
-                  className="h-12 w-12 object-contain opacity-90
+                  className="h-16 w-16 md:h-12 md:w-12 object-contain opacity-90
                   group-hover:opacity-100
                   group-hover:scale-110
                   group-hover:-translate-y-1
@@ -135,7 +135,7 @@ const Skills = () => {
         }}
       >
         {/* Première ligne */}
-        <div className="grid grid-cols-[1fr_2fr] gap-0.5">
+        <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-0.5">
           {/* Texte */}
           <div className="bg-white p-6 flex items-center">
             <h2 className="text-2xl font-medium">
@@ -155,7 +155,7 @@ const Skills = () => {
           </div>
 
           {/* Logos du haut */}
-          <div className="grid grid-cols-4 gap-0.5">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-0.5">
             {topFrameworks.map((framework) => (
               <div
                 key={framework.name}
@@ -165,11 +165,11 @@ const Skills = () => {
                   setCurrentFrameworkColor(framework.color);
                 }}
               >
-                <div className="aspect-square flex items-center justify-center p-6">
+                <div className="aspect-square flex items-center justify-center p-4 md:p-6">
                   <img
                     src={framework.img}
                     alt={framework.name}
-                    className="h-12 w-12 object-contain opacity-90
+                    className="h-16 w-16 md:h-12 md:w-12 object-contain opacity-90
                     group-hover:opacity-100
                     group-hover:scale-110
                     group-hover:-translate-y-1
@@ -182,7 +182,7 @@ const Skills = () => {
         </div>
 
         {/* Deuxième ligne */}
-        <div className="grid grid-cols-6 gap-0.5">
+        <div className="grid grid-cols-3 md:grid-cols-6 gap-0.5">
           {bottomFrameworks.map((framework) => (
             <div
               key={framework.name}
@@ -192,11 +192,11 @@ const Skills = () => {
                 setCurrentFrameworkColor(framework.color);
               }}
             >
-              <div className="aspect-square flex items-center justify-center p-6">
+              <div className="aspect-square flex items-center justify-center p-4 md:p-6">
                 <img
                   src={framework.img}
                   alt={framework.name}
-                  className="h-12 w-12 object-contain opacity-90
+                  className="h-16 w-16 md:h-12 md:w-12 object-contain opacity-90
                   group-hover:opacity-100
                   group-hover:scale-110
                   group-hover:-translate-y-1
