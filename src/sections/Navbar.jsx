@@ -16,24 +16,31 @@ const NavItems = ({ onClick = () => {} }) => (
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const nameRef = useRef(null); // Référence pour le conteneur du nom "Wael"
+  const nameRef = useRef(null);
+  const lettersRef = useRef([]);
 
   const toggleMenu = () => setIsOpen(!isOpen);
   const closeMenu = () => setIsOpen(false);
 
-  // Animation GSAP
+  // Animation d'apparition progressive
   useEffect(() => {
-    if (nameRef.current) {
-      const letters = Array.from(nameRef.current.children); // Récupère chaque lettre
+    if (lettersRef.current.length > 0) {
+      // Initialisation : lettres invisibles
+      gsap.set(lettersRef.current, {
+        opacity: 0,
+        y: 20,
+        scale: 0.8,
+      });
 
-      // Animation de chaque lettre
-      gsap.to(letters, {
-        y: -10, // Déplace la lettre vers le haut
-        duration: 0.3, // Durée de l'animation
-        stagger: 0.1, // Délai entre chaque lettre
-        repeat: -1, // Répète indéfiniment
-        yoyo: true, // Revient à la position d'origine
-        ease: 'power1.inOut', // Effet d'accélération/décélération
+      // Animation : apparition des lettres
+      gsap.to(lettersRef.current, {
+        duration: 0.8,
+        opacity: 1, // Assure que l'opacité revient à 1
+        y: 0,
+        scale: 1,
+        stagger: 0.1,
+        ease: 'back.out(1.7)',
+        delay: 0.3,
       });
     }
   }, []);
@@ -44,7 +51,11 @@ const Navbar = () => {
         <div className="flex justify-between items-center py-5 mx-auto c-space">
           <a href="/" className="text-black font-bold text-xl hover:text-green-500 transition-colors" ref={nameRef}>
             {'Wael'.split('').map((letter, index) => (
-              <span key={index} className="inline-block">
+              <span
+                key={index}
+                className="inline-block"
+                ref={(el) => (lettersRef.current[index] = el)}
+              >
                 {letter}
               </span>
             ))}

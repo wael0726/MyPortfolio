@@ -4,7 +4,7 @@ import { Canvas } from '@react-three/fiber';
 import { Suspense } from 'react';
 import { OrbitControls, PerspectiveCamera } from '@react-three/drei';
 import Button from '../components/Button.jsx';
-import { Keyboard } from '../components/Keyboard.jsx'; // Assurez-vous que le chemin est correct
+import { Keyboard } from '../components/Keyboard.jsx';
 
 const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
@@ -28,7 +28,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I’m Wael Malek Bennabi</p>
               <p className="grid-subtext">
-                With 3 years of experience, I have developed strong skills in both frontend and backend development, creating dynamic
+                I am a 19 years old student with 3 years of experience, I have developed strong skills in both frontend and backend development, creating dynamic
                 and responsive websites.
               </p>
             </div>

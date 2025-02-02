@@ -42,7 +42,8 @@ const Skills = () => {
   const bottomLanguages = languages.slice(4, 10);
 
   return (
-    <section className="mx-auto max-w-7xl p-8 space-y-12">
+    <section className="mx-auto max-w-7xl p-8 space-y-12" id="skills">
+      <p className="head-text">My Skills</p>
       {/* Section Langages */}
       <div
         className="grid grid-rows-2 gap-0.5 bg-neutral-100 rounded-xl overflow-hidden"
