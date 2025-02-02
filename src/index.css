@@ -62,7 +62,7 @@ body {
 
   /* about section */
   .grid-container {
-    @apply w-full h-full border border-[#d3d1ca] bg-white rounded-lg sm:p-7 p-4 flex flex-col gap-5;
+    @apply w-full h-full border  bg-white rounded-lg sm:p-7 p-4 flex flex-col gap-5;
   }
 
   .grid-headtext {
@@ -109,7 +109,7 @@ body {
   }
 
   .work-content {
-    @apply col-span-2 rounded-lg bg-black-200 border border-black-300;
+    @apply col-span-2 rounded-lg bg-white border ;
   }
 
   .work-content_container {

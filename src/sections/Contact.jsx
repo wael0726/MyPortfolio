@@ -19,19 +19,18 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_60gwsv4",
+        "template_gtygm0h",
         {
           from_name: form.name,
-          to_name: 'JavaScript Mastery',
+          to_name: 'Wael Malek Bennabi',
           from_email: form.email,
-          to_email: 'sujata@jsmastery.pro',
+          to_email: 'wmbennabi05@gmail.com',
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
+        "znjafhzCLG-tRaQd8",
       )
       .then(
         () => {
@@ -72,7 +71,7 @@ const Contact = () => {
         <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0 min-h-screen" />
 
         <div className="contact-container">
-          <h3 className="head-text">Let's talk</h3>
+          <h3 className="sm:text-4xl text-3xl font-semibold text-white">Let's talk</h3>
           <p className="text-lg text-white-600 mt-3">
             Whether you’re looking to build a new website, improve your existing platform, or bring a unique project to
             life, I’m here to help.
@@ -88,7 +87,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="ex., John Doe"
+                placeholder="Your name"
               />
             </label>
 
@@ -101,7 +100,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="ex., johndoe@gmail.com"
+                placeholder="exemple@gmail.com"
               />
             </label>
 
@@ -114,7 +113,7 @@ const Contact = () => {
                 required
                 rows={5}
                 className="field-input"
-                placeholder="Share your thoughts or inquiries..."
+                placeholder="Share your thoughts..."
               />
             </label>
 
