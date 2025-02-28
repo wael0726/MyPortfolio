@@ -225,6 +225,11 @@ export const myProjects = [
         name: 'Unity',
         path: 'assets/unity.png',
       },
+      {
+        id: 3,
+        name: 'Mathematica',
+        path: 'assets/mathematica.png',
+      },
     ],
   },
 ];
