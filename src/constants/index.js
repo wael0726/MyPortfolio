@@ -223,7 +223,7 @@ export const myProjects = [
       {
         id: 2,
         name: 'Unity',
-        path: 'assets/unity.png',
+        path: 'assets/unityimg.png',
       },
       {
         id: 3,
