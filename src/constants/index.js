@@ -204,8 +204,8 @@ export const myProjects = [
     desc: 'This 3D platformer game offers an exciting adventure filled with diverse levels, each designed with unique challenges and obstacles. Players will navigate through environments featuring bumpers, moving platforms, and enemies equipped with artificial intelligence. The game introduces dynamic elements like air vents that propel players upward, along with various shooting obstacles that test the player\'s agility and timing. With every level, players encounter new gameplay mechanics and increasingly complex scenarios that push their skills to the limit.',
     subdesc:
       'Developed with Unity and C#, the game takes full advantage of Unity\'s powerful engine to create immersive 3D environments and realistic physics.',
-    href: '',
-    texture: '/textures/project/Ascendiamp4.mp4',
+    href: 'https://github.com/wael0726/Ascendia-3DPlatformer',
+    texture: '/textures/project/Ascendia.mp4',
     logo: '/assets/Ascendia.png',
     logoStyle: {
       backgroundColor: '#1C1A43',
