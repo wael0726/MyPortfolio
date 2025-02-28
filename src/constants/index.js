@@ -199,6 +199,7 @@ export const myProjects = [
       },
     ],
   },
+
   {
     title: 'Ascendia - 3D Platformer Game',
     desc: 'This 3D platformer game offers an exciting adventure filled with diverse levels, each designed with unique challenges and obstacles. Players will navigate through environments featuring bumpers, moving platforms, and enemies equipped with artificial intelligence. The game introduces dynamic elements like air vents that propel players upward, along with various shooting obstacles that test the player\'s agility and timing. With every level, players encounter new gameplay mechanics and increasingly complex scenarios that push their skills to the limit.',
